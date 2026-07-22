@@ -1,0 +1,15 @@
+:root.minimalist {
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #121212;
+  --color-bg-tertiary: #1E1E1E;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #E0E0E0;
+
+  --color-border: #2A2A2A;
+
+  --color-accent: #9B51E0; /* Purple */
+  --color-accent-hover: #B57AF0;
+
+  --color-info: #2D9CDB; /* Blue */
+}

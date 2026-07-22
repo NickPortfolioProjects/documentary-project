@@ -1,0 +1,16 @@
+:root.editorial {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F2F2F2;
+  --color-bg-tertiary: #C4C4C4;
+
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4D4D4D;
+
+  --color-border: #D9D9D9;
+
+  --color-accent: #0057B8; /* Royal Blue */
+  --color-accent-hover: #1A6FCC;
+
+  --color-warning: #FF9900; /* Amber */
+  --color-info: #009688; /* Teal */
+}

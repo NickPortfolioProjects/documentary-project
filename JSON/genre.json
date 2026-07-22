@@ -1,0 +1,278 @@
+{
+  "documentary_modes": [
+    {
+      "name": "Expository",
+      "derivatives": [
+        "Voice-of-God narration",
+        "Interview-driven",
+        "Argumentative structure",
+        "Archival footage",
+        "Journalistic tone"
+      ]
+    },
+    {
+      "name": "Observational",
+      "derivatives": [
+        "Fly-on-the-wall",
+        "No narration",
+        "Long takes",
+        "Minimal interference"
+      ]
+    },
+    {
+      "name": "Participatory",
+      "derivatives": [
+        "Filmmaker on camera",
+        "Interviews",
+        "Direct engagement",
+        "Investigative presence"
+      ]
+    },
+    {
+      "name": "Poetic",
+      "derivatives": [
+        "Non-linear",
+        "Visual metaphors",
+        "Mood-driven",
+        "Experimental sound"
+      ]
+    },
+    {
+      "name": "Reflexive",
+      "derivatives": [
+        "Self-aware filmmaking",
+        "Breaking the fourth wall",
+        "Documentary about documentary"
+      ]
+    },
+    {
+      "name": "Performative",
+      "derivatives": [
+        "Personal storytelling",
+        "Emotional experience",
+        "Subjective truth",
+        "Identity-focused"
+      ]
+    }
+  ],
+
+  "genres": {
+    "human_and_society": [
+      "Biography",
+      "Autobiographical",
+      "True Crime",
+      "Social Issues",
+      "Political",
+      "Historical",
+      "War & Conflict",
+      "Cultural / Anthropological",
+      "Human Rights",
+      "LGBTQ+",
+      "Gender & Identity",
+      "Religion & Spirituality",
+      "Education",
+      "Urban Life",
+      "Rural Life",
+      "Immigration & Diaspora"
+    ],
+    "science_and_environment": [
+      "Nature / Wildlife",
+      "Environmental / Climate",
+      "Conservation",
+      "Science & Technology",
+      "Space / Astronomy",
+      "Medical / Health Science",
+      "AI & Robotics",
+      "Geology / Earth Science"
+    ],
+    "lifestyle_and_experience": [
+      "Travel",
+      "Adventure",
+      "Sports",
+      "Food & Culinary",
+      "Music",
+      "Art & Design",
+      "Fashion",
+      "Architecture",
+      "Personal Development",
+      "Mental Health",
+      "Fitness & Body Culture"
+    ],
+    "economics_and_systems": [
+      "Business",
+      "Finance",
+      "Corporate Exposés",
+      "Industry / Manufacturing",
+      "Globalisation",
+      "Labour & Work",
+      "Economics & Markets",
+      "Startups & Innovation"
+    ],
+    "crime_and_justice": [
+      "Criminal Psychology",
+      "Forensics",
+      "Legal System",
+      "Wrongful Convictions",
+      "Organised Crime",
+      "Cybercrime",
+      "Espionage"
+    ],
+    "technology_and_digital_culture": [
+      "Internet Culture",
+      "Gaming",
+      "Social Media",
+      "Hacktivism",
+      "Digital Privacy",
+      "Cybersecurity"
+    ],
+    "entertainment_and_pop_culture": [
+      "Celebrity",
+      "Film & TV",
+      "Fandoms",
+      "Comics & Animation",
+      "Viral Phenomena"
+    ]
+  },
+
+  "formats": [
+    "Feature Documentary",
+    "Short Documentary",
+    "Mini-Doc",
+    "Docuseries",
+    "Limited Series",
+    "Multi-Season Series",
+    "Micro-Documentary",
+    "Web Documentary / Interactive",
+    "VR Documentary",
+    "360° Immersive Documentary",
+    "Live Documentary"
+  ],
+
+  "narrative_structures": [
+    "Chronological",
+    "Reverse Chronological",
+    "Non-linear",
+    "Multi-timeline",
+    "Case-study",
+    "Investigative arc",
+    "Character-driven",
+    "Event-driven",
+    "Problem-solution",
+    "Mystery-box",
+    "Testimonial-driven",
+    "Montage-driven",
+    "Essay-style"
+  ],
+
+  "aesthetic_styles": [
+    "Cinematic",
+    "Raw / Gritty",
+    "Minimalist",
+    "High-contrast",
+    "Naturalistic",
+    "Stylised",
+    "Surreal",
+    "Experimental",
+    "Archival-heavy",
+    "Interview-heavy",
+    "Reenactment-heavy",
+    "Animation-integrated",
+    "Mixed-media"
+  ],
+
+  "hybrid_types": [
+    "Docudrama",
+    "Mockumentary",
+    "Hybrid Fiction",
+    "Reenactment-driven",
+    "Essay Film",
+    "Performative Hybrid",
+    "Found Footage Documentary",
+    "Archival Reconstruction",
+    "Animated Documentary",
+    "Experimental Hybrid"
+  ],
+
+  "platform_categories": {
+    "netflix": [
+      "True Crime",
+      "Social Issues",
+      "Nature",
+      "Sports",
+      "Music",
+      "Pop Culture",
+      "Investigative",
+      "Political",
+      "Science",
+      "Travel",
+      "History",
+      "War",
+      "Biography",
+      "Competition / Reality-Doc"
+    ],
+    "bbc": [
+      "Natural History",
+      "World Affairs",
+      "Science",
+      "History",
+      "Arts",
+      "Culture",
+      "Current Affairs",
+      "Investigative Journalism"
+    ],
+    "youtube": [
+      "Explainer Docs",
+      "Commentary Docs",
+      "Internet Culture",
+      "Mini-Docs",
+      "Creator Profiles",
+      "Tech & Gaming",
+      "DIY / Maker Docs"
+    ]
+  },
+
+  "micro_genres": [
+    "Cold Case",
+    "Cults",
+    "Conspiracy",
+    "Paranormal",
+    "Survival",
+    "Extreme Sports",
+    "Expedition",
+    "Disaster",
+    "Urban Exploration",
+    "Minimalist Living",
+    "Biohacking",
+    "Startup Culture",
+    "Dark History",
+    "Lost Civilisations",
+    "Space Missions",
+    "Wildlife Behaviour",
+    "Climate Crisis",
+    "Deep Sea",
+    "Cybersecurity",
+    "Hackers",
+    "Digital Addiction",
+    "Social Experiments",
+    "Street Culture",
+    "Underground Music",
+    "Subcultures",
+    "Counterculture",
+    "Political Scandals",
+    "Corporate Fraud",
+    "Whistleblowers",
+    "Medical Breakthroughs",
+    "Pandemic",
+    "AI Ethics",
+    "Robotics",
+    "Futurism",
+    "Archaeology",
+    "Paleontology",
+    "Mythology",
+    "Folklore",
+    "War Crimes",
+    "Human Trafficking",
+    "Migration Stories",
+    "Indigenous Cultures"
+  ]
+}

@@ -1,0 +1,16 @@
+:root.nature-science {
+  --color-bg-primary: #0A0A0A;
+  --color-bg-secondary: #1F1F1F;
+  --color-bg-tertiary: #2C2C2C;
+
+  --color-text-primary: #F9F9F9;
+  --color-text-secondary: #DADADA;
+
+  --color-border: #3A3A3A;
+
+  --color-accent: #FFC300; /* NatGeo Yellow */
+  --color-accent-hover: #FFD84D;
+
+  --color-accent-alt: #00A8E8; /* Ocean Blue */
+  --color-success: #4CAF50; /* Nature Green */
+}
