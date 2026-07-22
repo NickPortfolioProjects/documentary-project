@@ -14,3 +14,9 @@
   --color-danger: #E50914; /* Netflix Red */
   --color-warning: #F2C94C; /* Gold */
 }
+
+
+/* Navbar Fixed to top */
+.navbar {
+    position: fixed;
+}
