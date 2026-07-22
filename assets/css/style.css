@@ -18,6 +18,19 @@
   --color-warning: #f2c94c; /* Gold */
 }
 
+/* Global css across most of the pages.*/
+
+p {
+    color: var(--color-text-primary);
+}
+
+/*Navbar No Wrap*/
+	.navbar-nav .nav-link {
+    white-space: nowrap;
+}
+
+
+/* Header, Main, and Footer. Plus image under #docufree*/
 
 #header {
     margin-top: 54px;
@@ -35,4 +48,14 @@ main {
     width: 100%;
     background: url(../images/DocuFree_Logo.png) no-repeat center center/cover;
     position: relative;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    z-index: 2000;
 }
