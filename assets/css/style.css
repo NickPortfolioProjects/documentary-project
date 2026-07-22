@@ -15,23 +15,13 @@
   --color-warning: #F2C94C; /* Gold */
 }
 
-
-/* Navbar Fixed to top */
-.navbar {
-    position: fixed;
-    background-color: var(--color-bg-tertiary) !important;
-    color: var(--color-text-primary);
+/*Navbar No Wrap*/
+.navbar-nav .nav-link {
+    white-space: nowrap;
 }
 
-.navbar-brand {
-  white-space: nowrap;
-}
-
-.navbar {
-    flex-wrap: nowrap !important;
-}
 
 /* Header Section*/
 #header {
-    margin-top: 57.16px;
+    margin-top: 100px;
 }

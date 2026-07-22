@@ -13,27 +13,31 @@
 
 <body>
     <!--Navigation bar Bootstrap Code.-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/DocuFree_Logo.png" alt="DocuFree Logo" width="30" height="24" class="d-inline-block align-text-top">DocuFree</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
+            <!-- Brand + Toggler MUST be grouped together -->
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/DocuFree_Logo.png" width="60px"
+                        height="48px">DocuFree</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Collapse menu MUST be separate -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link"  href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
