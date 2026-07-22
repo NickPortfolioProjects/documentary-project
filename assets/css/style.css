@@ -1,4 +1,4 @@
-:root.cinematic-dark {
+/*:root.cinematic-dark {
   --color-bg-primary: #0D0D0D;
   --color-bg-secondary: #1A1A1A;
   --color-bg-tertiary: #2E2E2E;
@@ -13,10 +13,23 @@
 
   --color-danger: #E50914; /* Netflix Red */
   --color-warning: #F2C94C; /* Gold */
-}
+} */
 
 
 /* Navbar Fixed to top */
 .navbar {
     position: fixed;
+}
+
+.navbar-brand {
+  white-space: nowrap;
+}
+
+.navbar {
+    flex-wrap: nowrap !important;
+}
+
+/* Header Section*/
+#header {
+    margin-top: 57.16px;
 }
