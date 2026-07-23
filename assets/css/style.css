@@ -65,6 +65,10 @@
     color: var(--color-accent-hover);
 }
 
+.navbar-toggler {
+    background-color: var(--color-accent);
+}
+
 body {
     background-color: var(--color-bg-primary);
     color: var(--color-text-secondary);
