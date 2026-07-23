@@ -20,8 +20,8 @@
     <!--Navigation Bootstrap Code - Customised-->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top bs-data-theme=" dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo" width="90px"
-                    height="56px"></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo"
+                    width="90px" height="56px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,24 +66,27 @@
             <div class="col-md-6">
                 <header class="header">
                     <h2 id="h2">New Releases</h2>
-                    <!--Popover with image of documentary included-->
+                    <!--Popover with thumbnails image of documentary included-->
                     <div class="documentary-images">
                         <div class="row">
                             <div class="col-md-6">
                                 <button type="button" class="btn btn-secondary" data-bs-container="body"
-                                    data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Crystal Lake Memories <br> Review">
+                                    data-bs-toggle="popover" data-bs-placement="top"
+                                    data-bs-content="Crystal Lake Memories <br> Review">
                                     <img id="documentary-img"
                                         src="assets/images/documentary-images/Crystal_Lake_Memories.jpg"
                                         alt="Crystal Lake Memories">
                                 </button>
                                 <button type="button" class="btn btn-secondary" data-bs-container="body"
-                                    data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Crystal Lake Memories <br> Review">
+                                    data-bs-toggle="popover" data-bs-placement="top"
+                                    data-bs-content="Crystal Lake Memories <br> Review">
                                     <img id="documentary-img"
                                         src="assets/images/documentary-images/Crystal_Lake_Memories.jpg"
                                         alt="Crystal Lake Memories">
                                 </button>
                                 <button type="button" class="btn btn-secondary" data-bs-container="body"
-                                    data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Crystal Lake Memories <br> Review">
+                                    data-bs-toggle="popover" data-bs-placement="top"
+                                    data-bs-content="Crystal Lake Memories <br> Review">
                                     <img id="documentary-img"
                                         src="assets/images/documentary-images/Crystal_Lake_Memories.jpg"
                                         alt="Crystal Lake Memories">
@@ -92,32 +95,54 @@
                         </div>
                     </div>
                 </header>
+            </div>
 
-                <div class="col-md-6">
-                    <header class="header">
-                        <h2 id="h2">Recommended</h2>
-                    </header>
+
+
+            <!-- Carousel 3 x images -->
+            <div class="col-md-6">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/DocuFree_Logo_v2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/DocuFree_Logo_v2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/DocuFree_Logo_v2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-        </div>
 
 
 
 
 
 
-        <!--JS Bootstrap Link-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
-        <!--Font Awesome-->
-        <script src="https://kit.fontawesome.com/01fd18e914.js" crossorigin="anonymous"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-                [...popoverTriggerList].map(el => new bootstrap.Popover(el));
-            });
-        </script>
+            <!--JS Bootstrap Link-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+            <!--Font Awesome-->
+            <script src="https://kit.fontawesome.com/01fd18e914.js" crossorigin="anonymous"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+                    [...popoverTriggerList].map(el => new bootstrap.Popover(el));
+                });
+            </script>
 
 </body>
 
