@@ -95,9 +95,16 @@ h5 {
     -o-border-radius: 25px;
     border-radius: 25px;
     padding: 15px 5px 5px 15px;
-    overflow: auto;
+    width: auto;
 }
 
 #h2 {
     text-align: center;
+}
+
+/* Documentary Image */
+
+#documentary-img{
+    height: 64px;
+    width: 64px;
 }
