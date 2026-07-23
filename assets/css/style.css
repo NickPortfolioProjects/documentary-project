@@ -89,11 +89,11 @@ h5 {
 .header {
     margin-top: 90px;
     border: 1px solid var(--color-accent);
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    border-radius: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
     padding: 15px 5px 5px 15px;
     width: auto;
 }
@@ -104,7 +104,7 @@ h5 {
 
 /* Documentary Image */
 
-#documentary-img{
+.img-fluid .documentary-img{
     height: 32px;
     width: 32px;
 }
