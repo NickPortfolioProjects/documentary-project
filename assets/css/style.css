@@ -19,16 +19,22 @@
 }
 
 /* Global css across most of the pages.*/
+body {
+    background-color: var(--color-bg-tertiary);
+}
 
 p {
     color: var(--color-text-primary);
 }
 
 /*Navbar No Wrap*/
-	.navbar-nav .nav-link {
+.navbar-nav .nav-link {
     white-space: nowrap;
 }
 
+navbar {
+    background-color: var(--color-accent) !important;
+}
 
 /* Header, Main, and Footer. Plus image under #docufree*/
 
@@ -47,7 +53,7 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/DocuFree_Logo.png) no-repeat center center/cover;
-    position: relative;
+    position: fixed;
 }
 
 footer {
