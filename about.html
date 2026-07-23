@@ -1,47 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" class="cinematic-dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DocuFree | Home</title>
-    <!--Bootstrap CSS link-->
+    <!--Meta Descriptions & Keywords-->
+    <meta name="description" content="D-Cine is the place for all of your favorite film-makers professional and amateur">
+    <meta name="keywords" content="documentaries, d-cine, documentary, d-cinema,">
+    <!--CSS Bootstrap URL-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!--Custom CSS file -->
+    <title>D-Cine | Home</title>
+    <!--Custom CSS Developed locally-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!--Navigation bar Bootstrap Code.-->
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
-    <div class="container-fluid">
-
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/images/DocuFree_Logo.png" width="36px" height="24px"> DocuFree
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-            </ul>
+    <!--Navigation Bootstrap Code - Customised-->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bs-data-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo" width="90px" height="96px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo" width="90px" height="96px"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html"><i class="fa-solid fa-user"></i> about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fa-regular fa-envelope"></i> contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i> login</a>
+                        </li>
+                    </ul>
+                    <!--<form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>-->
+                </div>
+            </div>
         </div>
+    </nav>
 
-    </div>
-</nav>
+    
 
 
 
-    <!--Bootstrap JS link-->
+
+
+    <!--JS Bootstrap Link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
