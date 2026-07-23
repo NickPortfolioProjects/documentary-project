@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 /* Color Theme for D-Cine*/
 :root.cinematic-dark {
   --color-bg-primary: #0d0d0d;
@@ -25,13 +30,39 @@
     background-color: var(--color-bg-primary);
 }
 #navbar .navbar-brand img {
-    height: 48px;
-    width: 200px;
+    height: 56px;
+    width: auto;
+}
+
+.nav-link,
+.nav-link.active {
+    color: var(--color-accent) !important;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+    color: var(--color-accent-hover) !important;
 }
 
 
 .nav-link {
+    color: var(--color-accent);
+}
+
+.nav-link:hover {
+    color: var(--color-accent-hover);
+}
+
+.nav-link {
     text-transform: uppercase;
+}
+
+.nav-link i {
+    color: var(--color-accent);
+}
+
+.nav-link i:hover {
+    color: var(--color-accent-hover);
 }
 
 body {
@@ -47,13 +78,13 @@ h4,
 h5 {
     font-family: 'Google+Sans', sans-serif;
     font-weight: bold;
-    justify-items: 0 auto;
+    color: antiquewhite;
 }
 
 /* Header */
-#header {
+.header {
     margin-top: 90px;
-    border: 1px solid #1a1a1a;
+    border: 1px solid var(--color-accent);
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
