@@ -105,6 +105,10 @@ h5 {
 /* Documentary Image */
 
 #documentary-img{
+    height: 32px;
+    width: 32px;
+}
+.btn {
     height: 64px;
     width: 64px;
 }
