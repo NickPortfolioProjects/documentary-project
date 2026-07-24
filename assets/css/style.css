@@ -8,22 +8,23 @@
 }
 
 /* Color Theme for D-Cine*/
-:root.cinematic-dark {
-  --color-bg-primary: #0d0d0d;
-  --color-bg-secondary: #1a1a1a;
-  --color-bg-tertiary: #2e2e2e;
+:root.fresh-light {
+  --color-bg-primary: #f7f9fb;      /* Soft Cloud */
+  --color-bg-secondary: #eef2f5;    /* Mist Grey */
+  --color-bg-tertiary: #e2e8ef;     /* Cool Porcelain */
 
-  --color-text-primary: #f5f5f5;
-  --color-text-secondary: #cfcfcf;
+  --color-text-primary: #2b2f33;    /* Charcoal Ink */
+  --color-text-secondary: #5c636a;  /* Slate Grey */
 
-  --color-border: #3a3a3a;
+  --color-border: #d3d9df;          /* Gentle Outline */
 
-  --color-accent: #0077ff; /* Electric Blue */
-  --color-accent-hover: #3399ff;
+  --color-accent: #2bb8a3;          /* Fresh Teal */
+  --color-accent-hover: #4ccab6;    /* Bright Mint */
 
-  --color-danger: #e50914; /* Netflix Red */
-  --color-warning: #f2c94c; /* Gold */
+  --color-danger: #ff6b6b;          /* Soft Coral Red */
+  --color-warning: #f7c948;         /* Warm Honey Yellow */
 }
+
 
 /*Navbar Color Change*/
 #navbar {
@@ -36,7 +37,7 @@
 
 .nav-link,
 .nav-link.active {
-    color: var(--color-accent) !important;
+    color: var(--color-text-primary) !important;
 }
 
 .nav-link:hover,
@@ -71,7 +72,7 @@
 
 body {
     background-color: var(--color-bg-primary);
-    color: var(--color-text-secondary);
+    color: var(--color-text-primary);
 }
 
 /* Global Code for all html files. */
@@ -82,7 +83,11 @@ h4,
 h5 {
     font-family: 'Google+Sans', sans-serif;
     font-weight: bold;
-    color: antiquewhite;
+    color: var(--color-text-primary);
+}
+
+#h-2 {
+    text-align: center;
 }
 
 /* Header */
@@ -98,10 +103,6 @@ h5 {
     width: auto;
 }
 
-#h2 {
-    text-align: center;
-}
-
 /* Documentary Image */
 
 .img-fluid .documentary-img{
@@ -111,4 +112,9 @@ h5 {
 .btn {
     height: 64px;
     width: 64px;
+}
+
+/* Search bar Height and width */
+#search-bar {
+    margin-top: 400px;
 }
