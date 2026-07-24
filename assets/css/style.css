@@ -114,6 +114,11 @@ h5 {
     width: 64px;
 }
 
+/* Card CSS removed from Line 92 - 120 */
+.card {
+    width: 12rem;
+}
+
 /* Search bar Height and width */
 #search-bar {
     margin-top: 400px;
