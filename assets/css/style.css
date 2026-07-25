@@ -105,14 +105,22 @@ h5 {
 
 /* Documentary Image */
 
-.img-fluid .documentary-img{
-    height: 32px;
-    width: 32px;
+.documentary-images {
+    margin-top: 90px;
+    height: auto;
+    width: auto;
+    border: 1;
+    border-radius: 5px;
 }
+
 .btn {
-    height: 64px;
-    width: 64px;
+    margin-top: 100px;
+    height: 128px;
+    width: 128px;
+    padding: 8px;
+    border-radius: 8px;
 }
+
 
 /* Card CSS removed from Line 92 - 120 */
 .card {
