@@ -25,3 +25,7 @@
   --color-danger: #ff6b6b;          /* Soft Coral Red */
   --color-warning: #f7c948;         /* Warm Honey Yellow */
 }
+
+#row-box {
+  border: 2px solid #2b2f33;
+}
