@@ -129,7 +129,7 @@ footer {
     height: 100px;
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     background-color: var(--color-bg-tertiary);
     color: var(--color-text-secondary);
 }
