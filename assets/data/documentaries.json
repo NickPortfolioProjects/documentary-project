@@ -8,7 +8,7 @@
     "micro_genres": ["Horror History", "Slasher Cinema", "Behind the Scenes"],
     "tags": ["Friday the 13th", "Film Production", "Cult Cinema"],
     "platform": "YouTube",
-    "image_url": "https://i.ytimg.com/vi/0xZkHfYwHkY/hqdefault.jpg",
+    "image_url": "INVALID",
     "fallback_image": "assets/images/fallback.jpg"
   },
   {
@@ -64,7 +64,7 @@
     "micro_genres": ["Space Missions", "Archival Reconstruction"],
     "tags": ["NASA", "Moon Landing", "1960s"],
     "platform": "Prime Video",
-    "image_url": "https://i.ytimg.com/vi/UU6U0jZQWbg/hqdefault.jpg",
+    "image_url": "INVALID",
     "fallback_image": "assets/images/fallback.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "micro_genres": ["Underground Music", "Biography"],
     "tags": ["Rodriguez", "Mystery", "South Africa"],
     "platform": "YouTube",
-    "image_url": "https://i.ytimg.com/vi/tDWQ8jD2nNw/hqdefault.jpg",
+    "image_url": "INVALID",
     "fallback_image": "assets/images/fallback.jpg"
   },
   {
@@ -88,7 +88,7 @@
     "micro_genres": ["Conservation", "Investigative"],
     "tags": ["Dolphins", "Japan", "Activism"],
     "platform": "Prime Video",
-    "image_url": "https://i.ytimg.com/vi/4KRD8e20fBo/hqdefault.jpg",
+    "image_url": "INVALID",
     "fallback_image": "assets/images/fallback.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "micro_genres": ["Hackers", "Digital Privacy"],
     "tags": ["Edward Snowden", "NSA", "Surveillance"],
     "platform": "YouTube",
-    "image_url": "https://i.ytimg.com/vi/8mS0yff7KxE/hqdefault.jpg",
+    "image_url": "INVALID",
     "fallback_image": "assets/images/fallback.jpg"
   },
   {
@@ -123,7 +123,7 @@
     "micro_genres": ["Survival", "Disaster"],
     "tags": ["Thai Cave Rescue", "Diving", "Teamwork"],
     "platform": "Disney+",
-    "image_url": "https://i.ytimg.com/vi/2fG0FfV2KXg/hqdefault.jpg",
+    "image_url": "INVALID",
     "fallback_image": "assets/images/fallback.jpg"
   },
   {
