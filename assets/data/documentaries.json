@@ -8,7 +8,8 @@
     "micro_genres": ["Horror History", "Slasher Cinema", "Behind the Scenes"],
     "tags": ["Friday the 13th", "Film Production", "Cult Cinema"],
     "platform": "YouTube",
-    "image_url": "https://i.ytimg.com/vi/0xZkHfYwHkY/hqdefault.jpg"
+    "image_url": "https://i.ytimg.com/vi/0xZkHfYwHkY/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "Free Solo",
@@ -63,7 +64,8 @@
     "micro_genres": ["Space Missions", "Archival Reconstruction"],
     "tags": ["NASA", "Moon Landing", "1960s"],
     "platform": "Prime Video",
-    "image_url": "https://i.ytimg.com/vi/UU6U0jZQWbg/hqdefault.jpg"
+    "image_url": "https://i.ytimg.com/vi/UU6U0jZQWbg/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "Searching for Sugar Man",
@@ -74,7 +76,8 @@
     "micro_genres": ["Underground Music", "Biography"],
     "tags": ["Rodriguez", "Mystery", "South Africa"],
     "platform": "YouTube",
-    "image_url": "https://i.ytimg.com/vi/tDWQ8jD2nNw/hqdefault.jpg"
+    "image_url": "https://i.ytimg.com/vi/tDWQ8jD2nNw/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "The Cove",
@@ -85,7 +88,8 @@
     "micro_genres": ["Conservation", "Investigative"],
     "tags": ["Dolphins", "Japan", "Activism"],
     "platform": "Prime Video",
-    "image_url": "https://i.ytimg.com/vi/4KRD8e20fBo/hqdefault.jpg"
+    "image_url": "https://i.ytimg.com/vi/4KRD8e20fBo/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "Citizenfour",
@@ -96,7 +100,8 @@
     "micro_genres": ["Hackers", "Digital Privacy"],
     "tags": ["Edward Snowden", "NSA", "Surveillance"],
     "platform": "YouTube",
-    "image_url": "https://i.ytimg.com/vi/8mS0yff7KxE/hqdefault.jpg"
+    "image_url": "https://i.ytimg.com/vi/8mS0yff7KxE/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "My Octopus Teacher",
@@ -118,7 +123,8 @@
     "micro_genres": ["Survival", "Disaster"],
     "tags": ["Thai Cave Rescue", "Diving", "Teamwork"],
     "platform": "Disney+",
-    "image_url": "https://i.ytimg.com/vi/2fG0FfV2KXg/hqdefault.jpg"
+    "image_url": "https://i.ytimg.com/vi/2fG0FfV2KXg/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "The Great Hack",
@@ -140,7 +146,8 @@
     "micro_genres": ["Wildlife Behaviour", "Survival"],
     "tags": ["Bears", "Alaska", "Timothy Treadwell"],
     "platform": "Prime Video",
-    "image_url": "https://i.ytimg.com/vi/2v2RjWbJDQo/hqdefault.jpg"
+    "image_url": "INVALID",
+    "fallback_image": "assets/images/fallback.jpg"
   },
   {
     "title": "The Act of Killing",
@@ -152,5 +159,17 @@
     "tags": ["Indonesia", "History", "Violence"],
     "platform": "YouTube",
     "image_url": "https://i.ytimg.com/vi/SD5oMxbMcHM/hqdefault.jpg"
-  }
+  },
+  {
+  "title": "The Act of Killing",
+  "year": 2012,
+  "genre": "War & Conflict",
+  "mode": "Performative",
+  "format": "Feature Documentary",
+  "micro_genres": ["War Crimes", "Reenactment-driven"],
+  "tags": ["Indonesia", "History", "Violence"],
+  "platform": "YouTube",
+  "image_url": "INVALID",
+  "fallback_image": "assets/images/fallback.jpg"
+    }
 ]

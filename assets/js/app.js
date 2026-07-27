@@ -127,9 +127,17 @@ function renderDocumentaryCards(list) {
     const card = document.createElement("div");
     card.className = "col-md-4";
 
+    // ⭐ Fallback logic goes HERE
+    const imageSrc = doc.image_url || doc.fallback_image;
+
     card.innerHTML = `
       <div class="card doc-card h-100">
-        <img src="${doc.image_url}" class="card-img-top doc-img" alt="${doc.title}">
+        <img 
+          src="${imageSrc}" 
+          onerror="this.src='assets/images/fallback.jpg'" 
+          class="card-img-top doc-img" 
+          alt="${doc.title}"
+        >
         <div class="card-body">
           <h5 class="card-title">${doc.title}</h5>
           <p class="card-text">
@@ -144,6 +152,8 @@ function renderDocumentaryCards(list) {
     documentaryCardsContainer.appendChild(card);
   });
 }
+
+
 
 // ---- Optional: title/genre/tag search for documentaries ----
 // Example hook if you later add a documentary search input:
