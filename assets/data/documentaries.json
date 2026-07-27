@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Crystal Lake Memories",
+    "year": 2013,
+    "genre": "Dark History",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Horror History", "Slasher Cinema", "Behind the Scenes"],
+    "tags": ["Friday the 13th", "Film Production", "Cult Cinema"],
+    "platform": "YouTube",
+    "image_url": "https://i.ytimg.com/vi/0xZkHfYwHkY/hqdefault.jpg"
+  },
+  {
+    "title": "Free Solo",
+    "year": 2018,
+    "genre": "Adventure",
+    "mode": "Observational",
+    "format": "Feature Documentary",
+    "micro_genres": ["Extreme Sports", "Survival"],
+    "tags": ["Climbing", "Yosemite", "Athlete Profile"],
+    "platform": "Disney+",
+    "image_url": "https://i.ytimg.com/vi/urRVZ4SW7WU/hqdefault.jpg"
+  },
+  {
+    "title": "The Social Dilemma",
+    "year": 2020,
+    "genre": "Technology & Digital Culture",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Digital Addiction", "Social Experiments"],
+    "tags": ["Social Media", "Privacy", "Tech Ethics"],
+    "platform": "Netflix",
+    "image_url": "https://i.ytimg.com/vi/uaaC57tcci0/hqdefault.jpg"
+  },
+  {
+    "title": "Blackfish",
+    "year": 2013,
+    "genre": "Environmental / Climate",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Conservation", "Animal Rights"],
+    "tags": ["Orcas", "SeaWorld", "Activism"],
+    "platform": "Netflix",
+    "image_url": "https://i.ytimg.com/vi/fLOeH-Oq_1Y/hqdefault.jpg"
+  },
+  {
+    "title": "13th",
+    "year": 2016,
+    "genre": "Social Issues",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Political Scandals", "Human Rights"],
+    "tags": ["Mass Incarceration", "Race", "Justice System"],
+    "platform": "Netflix",
+    "image_url": "https://i.ytimg.com/vi/krfcq5pF8u8/hqdefault.jpg"
+  },
+  {
+    "title": "Apollo 11",
+    "year": 2019,
+    "genre": "Space / Astronomy",
+    "mode": "Poetic",
+    "format": "Feature Documentary",
+    "micro_genres": ["Space Missions", "Archival Reconstruction"],
+    "tags": ["NASA", "Moon Landing", "1960s"],
+    "platform": "Prime Video",
+    "image_url": "https://i.ytimg.com/vi/UU6U0jZQWbg/hqdefault.jpg"
+  },
+  {
+    "title": "Searching for Sugar Man",
+    "year": 2012,
+    "genre": "Music",
+    "mode": "Investigative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Underground Music", "Biography"],
+    "tags": ["Rodriguez", "Mystery", "South Africa"],
+    "platform": "YouTube",
+    "image_url": "https://i.ytimg.com/vi/tDWQ8jD2nNw/hqdefault.jpg"
+  },
+  {
+    "title": "The Cove",
+    "year": 2009,
+    "genre": "Environmental / Climate",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Conservation", "Investigative"],
+    "tags": ["Dolphins", "Japan", "Activism"],
+    "platform": "Prime Video",
+    "image_url": "https://i.ytimg.com/vi/4KRD8e20fBo/hqdefault.jpg"
+  },
+  {
+    "title": "Citizenfour",
+    "year": 2014,
+    "genre": "Cybersecurity",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Hackers", "Digital Privacy"],
+    "tags": ["Edward Snowden", "NSA", "Surveillance"],
+    "platform": "YouTube",
+    "image_url": "https://i.ytimg.com/vi/8mS0yff7KxE/hqdefault.jpg"
+  },
+  {
+    "title": "My Octopus Teacher",
+    "year": 2020,
+    "genre": "Nature / Wildlife",
+    "mode": "Performative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Wildlife Behaviour", "Personal Story"],
+    "tags": ["Ocean", "Octopus", "South Africa"],
+    "platform": "Netflix",
+    "image_url": "https://i.ytimg.com/vi/3s0LTDhqe5A/hqdefault.jpg"
+  },
+  {
+    "title": "The Rescue",
+    "year": 2021,
+    "genre": "Human & Society",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Survival", "Disaster"],
+    "tags": ["Thai Cave Rescue", "Diving", "Teamwork"],
+    "platform": "Disney+",
+    "image_url": "https://i.ytimg.com/vi/2fG0FfV2KXg/hqdefault.jpg"
+  },
+  {
+    "title": "The Great Hack",
+    "year": 2019,
+    "genre": "Technology & Digital Culture",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Cybersecurity", "Digital Privacy"],
+    "tags": ["Cambridge Analytica", "Data Mining", "Politics"],
+    "platform": "Netflix",
+    "image_url": "https://i.ytimg.com/vi/iX8GxLP1FHo/hqdefault.jpg"
+  },
+  {
+    "title": "Grizzly Man",
+    "year": 2005,
+    "genre": "Nature / Wildlife",
+    "mode": "Performative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Wildlife Behaviour", "Survival"],
+    "tags": ["Bears", "Alaska", "Timothy Treadwell"],
+    "platform": "Prime Video",
+    "image_url": "https://i.ytimg.com/vi/2v2RjWbJDQo/hqdefault.jpg"
+  },
+  {
+    "title": "The Act of Killing",
+    "year": 2012,
+    "genre": "War & Conflict",
+    "mode": "Performative",
+    "format": "Feature Documentary",
+    "micro_genres": ["War Crimes", "Reenactment-driven"],
+    "tags": ["Indonesia", "History", "Violence"],
+    "platform": "YouTube",
+    "image_url": "https://i.ytimg.com/vi/SD5oMxbMcHM/hqdefault.jpg"
+  }
+]

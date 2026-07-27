@@ -1,282 +1,137 @@
 <!doctype html>
 <html lang="en" class="fresh-light">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Meta Descriptions & Keywords-->
-    <meta
-      name="description"
-      content="D-Cine is the place for all of your favorite film-makers professional and amateur"
-    />
-    <meta
-      name="keywords"
-      content="documentaries, d-cine, documentary, d-cinema,"
-    />
-    <!--CSS Bootstrap URL-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <title>D-Cine | Home</title>
-    <!--Custom CSS Developed locally-->
-    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Favicons and Apple touch -->
-    <link rel="icon" type="image/png" href="../documentary-project/assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="../documentary-project/assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="../documentary-project/assets/favicon/7" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="D-Cine" />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Meta Descriptions & Keywords-->
+  <meta name="description"
+    content="D-Cine is the place for all of your favorite film-makers professional and amateur" />
+  <meta name="keywords" content="documentaries, d-cine, documentary, d-cinema," />
+  <!--CSS Bootstrap URL-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <title>D-Cine | Home</title>
+  <!--Custom CSS Developed locally-->
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-  <body>
-    <!--Navigation Bootstrap Code - Customised-->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg fixed-top"
-      data-bs-theme="dark"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
-          ><img
-            src="assets/images/d-cine-logo-v1.svg"
-            alt="d-cine logo"
-            width="90px"
-            height="56px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <img
-                src="assets/images/d-cine-logo-v1.svg"
-                alt="d-cine logo"
-                width="90px"
-                height="56px"
-              />
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a
-                  class="nav-link active mx-lg-2"
-                  aria-current="page"
-                  href="index.html"
-                  ><i class="fa-solid fa-house"></i> home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="about.html"
-                  ><i class="fa-solid fa-user"></i> about</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="contact.html"
-                  ><i class="fa-regular fa-envelope"></i> contact</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html"
-                  ><i class="fa-solid fa-arrow-right-to-bracket"></i> login</a
-                >
-              </li>
-            </ul>
-            <!--<form class="d-flex mt-3" role="search">
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+<link rel="shortcut icon" href="assets/favicon/favicon-96x96.png">
+
+<!-- Apple Touch -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="D-Cine">
+
+<!-- Manifest -->
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+
+</head>
+
+<body>
+  <!--Navigation Bootstrap Code - Customised-->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo"
+          width="90px" height="56px" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo" width="90px" height="56px" />
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-2" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>
+                home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="about.html"><i class="fa-solid fa-user"></i> about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="contact.html"><i class="fa-regular fa-envelope"></i> contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i> login</a>
+            </li>
+          </ul>
+          <!--<form class="d-flex mt-3" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>-->
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Search bar
-    <div class="container-fluid my-4">
-        <div class="row">
-            <div class="col-md-6">
-                <input id="genreSearchInput" type="text" class="form-control"
-                    placeholder="Search genres, micro-genres, documentary modes...">
-            </div>
-        </div>
-
-        <div class="row mt-3">
-            <div class="col-md-6">
-                <ul id="genreSearchResults" class="list-group"></ul>
-            </div>
-        </div>
-    </div>-->
-
-    <!--Header, view of newly released titles. -->
-
-    <div class="container-fluid">
-      <div class="row align-items-stretch">
-        <!-- LEFT SIDE: New Releases -->
-        <div class="col-md-6 d-flex flex-column">
-          <header class="header">
-            <h2 id="h-2">New Releases</h2>
-
-            <div class="documentary-images d-flex flex-wrap gap-3">
-              <!-- Card inserts -->
-              <div class="card">
-                <img
-                  src="assets/images/documentary-images/Crystal_Lake_Memories.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  src="assets/images/documentary-images/Crystal_Lake_Memories.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  src="assets/images/documentary-images/Crystal_Lake_Memories.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </header>
-        </div>
-
-        <!-- RIGHT SIDE: Carousel -->
-        <div class="col-md-6 d-flex flex-column">
-          <div
-            id="carouselExampleAutoplaying" class="carousel slide flex-grow-1"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="assets/images/peter-stumpf-yk9VXp4W5-Q-unsplash.jpg"
-                  class="d-block w-100"
-                  alt="Editor screen"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/jakob-owens-ntqaFfrDdEA-unsplash.jpg"
-                  class="d-block w-100"
-                  alt="Setting the stage"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/oleg-brovchenko-mVv8igQaWoI-unsplash.jpg"
-                  class="d-block w-100"
-                  alt="Clapper"
-                />
-              </div>
-            </div>
-
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev"
-              aria-label="Previous slide"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-            </button>
-
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next"
-              aria-label="Next slide"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-            </button>
-          </div>
         </div>
       </div>
     </div>
+  </nav>
 
-    <main></main>
+  <!-- Search bar with all genres listed. -->
+  <div class="container-bar">
 
-    <footer>
-      <h5>Social Media Links</h5> <br>
-      <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>facebook</a>
-      <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>instagram</a>
-      <a href="https://www.x.com"><i class="fa-brands fa-square-x-twitter"></i>x-twitter</a>
-    </footer>
+    <div class="container-fluid my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <input id="genreSearchInput" type="text" class="form-control"
+            placeholder="Search genres, micro-genres, documentary modes...">
+        </div>
+      </div>
 
-    <!--JS Bootstrap Link-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <ul id="genreSearchResults" class="list-group"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!--Font Awesome-->
-    <script
-      src="https://kit.fontawesome.com/01fd18e914.js"
-      crossorigin="anonymous"
-    ></script>
+  <!--Header, view of newly released titles. -->
 
-    <!-- Popover Script -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const popoverTriggerList = document.querySelectorAll(
-          '[data-bs-toggle="popover"]',
-        );
-        [...popoverTriggerList].map((el) => new bootstrap.Popover(el));
-      });
-    </script>
-    <!-- JS search JSON file -->
-    <script src="assets/js/app.js"></script>
-  </body>
+  <div class="container-fluid">
+    <div class="row align-items-stretch">
+      <!-- LEFT SIDE: New Releases -->
+      <div class="col-md-6 d-flex flex-column">
+        <header class="header">
+          <h2 id="h-2">New Releases</h2>
+
+          <div class="container my-5">
+            <div id="documentaryCards" class="row g-4"></div>
+          </div>
+
+        </header>
+      </div>
+
+      <main>
+      </main>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <footer>
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>facebook</a>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>instagram</a>
+              <a href="https://www.x.com"><i class="fa-brands fa-square-x-twitter"></i>x-twitter</a>
+            </footer>
+          </div>
+        </div>
+      </div>
+
+      <!--JS Bootstrap Link-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+
+      <!--Font Awesome-->
+      <script src="https://kit.fontawesome.com/01fd18e914.js" crossorigin="anonymous"></script>
+      <!-- JS search JSON file -->
+      <script src="assets/js/app.js"></script>
+</body>
+
 </html>
