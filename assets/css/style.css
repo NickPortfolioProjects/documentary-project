@@ -139,6 +139,11 @@ footer {
     bottom: 0;
     left: 0;
     position: fixed;
+    display: flex;
     background-color: var(--color-bg-tertiary);
     color: var(--color-text-secondary);
+}
+
+footer h5 {
+    align-items: center;
 }
