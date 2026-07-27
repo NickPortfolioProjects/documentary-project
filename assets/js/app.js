@@ -125,7 +125,8 @@ function renderDocumentaryCards(list) {
 
   list.forEach(doc => {
     const card = document.createElement("div");
-    card.className = "col-md-4";
+    card.className = "col-12 col-sm-6 col-md-4";
+
 
     // ⭐ Fallback logic goes HERE
     const imageSrc = doc.image_url || doc.fallback_image;

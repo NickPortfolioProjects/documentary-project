@@ -92,7 +92,7 @@
   <div class="container-fluid d-flex flex-column">
     <div class="row">
       <!-- LEFT SIDE: New Releases -->
-      <div class="col-12 col-md-6 d-flex flex-column">
+      <div class="col-12-col-md-6 d-flex flex-column">
         <header class="header">
           <h2 id="h-2">New Releases</h2>
 
