@@ -95,14 +95,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /*keepsfulllogovisible*/background-color: transparent;
-  /*ensuresnobackgroundbox*/padding: 10px;
-  /*optionalbreathingspace*/:;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-    border-radius: 10px;
+  padding: 10px;
 }
 
 
