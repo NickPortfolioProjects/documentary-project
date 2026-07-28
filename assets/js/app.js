@@ -19,21 +19,21 @@ document.addEventListener("DOMContentLoaded", () => {
 // ---- Data loading ----
 function loadGenreData() {
   fetch("assets/data/genre.json")
-    .then((res) => res.json())
-    .then((data) => {
+    .then(res => res.json())
+    .then(data => {
       genreData = data;
     })
-    .catch((err) => console.error("Error loading genre.json:", err));
+    .catch(err => console.error("Error loading genre.json:", err));
 }
 
 function loadDocumentaries() {
   fetch("assets/data/documentaries.json")
-    .then((res) => res.json())
-    .then((data) => {
+    .then(res => res.json())
+    .then(data => {
       documentaries = data;
       renderDocumentaryCards(documentaries);
     })
-    .catch((err) => console.error("Error loading documentaries.json:", err));
+    .catch(err => console.error("Error loading documentaries.json:", err));
 }
 
 // ---- Genre / taxonomy search ----
@@ -59,36 +59,24 @@ function searchGenres(term) {
 
   // Main genres
   for (const category in genreData.genres) {
-    genreData.genres[category].forEach((genre) => {
+    genreData.genres[category].forEach(genre => {
       if (genre.toLowerCase().includes(term)) {
-        results.push({
-          type: "Genre",
-          category,
-          name: genre,
-        });
+        results.push({ type: "Genre", category, name: genre });
       }
     });
   }
 
   // Micro-genres
-  genreData.micro_genres.forEach((micro) => {
+  genreData.micro_genres.forEach(micro => {
     if (micro.toLowerCase().includes(term)) {
-      results.push({
-        type: "Micro-Genre",
-        category: "Micro",
-        name: micro,
-      });
+      results.push({ type: "Micro-Genre", category: "Micro", name: micro });
     }
   });
 
   // Documentary modes
-  genreData.documentary_modes.forEach((mode) => {
+  genreData.documentary_modes.forEach(mode => {
     if (mode.name.toLowerCase().includes(term)) {
-      results.push({
-        type: "Documentary Mode",
-        category: "Mode",
-        name: mode.name,
-      });
+      results.push({ type: "Documentary Mode", category: "Mode", name: mode.name });
     }
   });
 
@@ -103,7 +91,7 @@ function displayGenreResults(results) {
     return;
   }
 
-  results.forEach((item) => {
+  results.forEach(item => {
     const li = document.createElement("li");
     li.className = "list-group-item";
     li.textContent = `${item.name} (${item.type})`;
@@ -122,26 +110,10 @@ function renderDocumentaryCards(list) {
     return;
   }
 
-  list.forEach((doc) => {
+  list.forEach(doc => {
     const card = document.createElement("div");
     card.className = "col-12 col-sm-6 col-md-4";
 
-    // ---- Documentary search helper ----
-    function searchDocumentaries(query) {
-      query = query.toLowerCase();
-
-      return documentaries.filter(
-        (doc) =>
-          doc.title.toLowerCase().includes(query) ||
-          doc.genre.toLowerCase().includes(query) ||
-          (doc.description && doc.description.toLowerCase().includes(query)) ||
-          (doc.tags && doc.tags.some((t) => t.toLowerCase().includes(query))) ||
-          (doc.micro_genres &&
-            doc.micro_genres.some((m) => m.toLowerCase().includes(query))),
-      );
-    }
-
-    // ⭐ Fallback logic goes HERE
     const imageSrc = doc.image_url || doc.fallback_image;
 
     card.innerHTML = `
@@ -167,52 +139,10 @@ function renderDocumentaryCards(list) {
   });
 }
 
+// ---- Search button → redirect to results page ----
 document.getElementById("searchButton").addEventListener("click", function () {
-  const query = genreSearchInput.value.trim().toLowerCase();
-  const resultsList = genreSearchResults;
+  const query = genreSearchInput.value.trim();
+  if (!query) return;
 
-  resultsList.innerHTML = ""; // Clear old results
-
-  if (!query) {
-    resultsList.innerHTML = `<li class="list-group-item">Please enter a search term</li>`;
-    renderDocumentaryCards(documentaries); // Reset cards
-    return;
-  }
-
-  const matches = searchDocumentaries(query);
-
-  // Update documentary cards
-  renderDocumentaryCards(matches);
-
-  // Update list results
-  if (matches.length === 0) {
-    resultsList.innerHTML = `<li class="list-group-item">No results found</li>`;
-    return;
-  }
-
-  matches.forEach((doc) => {
-    const li = document.createElement("li");
-    li.classList.add("list-group-item");
-    li.textContent = doc.title;
-
-    li.addEventListener("click", () => {
-      renderDocumentaryCards([doc]);
-    });
-
-    resultsList.appendChild(li);
-  });
+  window.location.href = `search-results.html?q=${encodeURIComponent(query)}`;
 });
-
-// ---- Optional: title/genre/tag search for documentaries ----
-// Example hook if you later add a documentary search input:
-// const docSearchInput = document.getElementById("docSearchInput");
-// docSearchInput.addEventListener("input", () => {
-//   const q = docSearchInput.value.trim().toLowerCase();
-//   const filtered = documentaries.filter(doc =>
-//     doc.title.toLowerCase().includes(q) ||
-//     doc.genre.toLowerCase().includes(q) ||
-//     doc.micro_genres.some(m => m.toLowerCase().includes(q)) ||
-//     doc.tags.some(t => t.toLowerCase().includes(q))
-//   );
-//   renderDocumentaryCards(filtered);
-// });
