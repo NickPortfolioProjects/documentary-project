@@ -31,10 +31,10 @@
 
 <body>
     <!--Navigation Bootstrap Code - Customised-->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bs-data-theme=" dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="assets/images/d-cine-logo-v1.svg" alt="d-cine logo"
-                    width="90px" height="96px"></a>
+                    width="90px" height="56px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,20 +43,20 @@
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/d-cine-logo-v1.svg"
-                            alt="d-cine logo" width="90px" height="96px"></h5>
+                            alt="d-cine logo" width="90px" height="56px"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> home</a>
+                            <a class="nav-link mx-lg-2" href="index.html"><i class="fa-solid fa-house"></i> home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html"><i
+                            <a class="nav-link active mx-lg-2" aria-current="page" href="about.html"><i
                                     class="fa-solid fa-user"></i> about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="fa-regular fa-envelope"></i> contact</a>
+                            <a class="nav-link mx-lg-2" href="contact.html"><i class="fa-regular fa-envelope"></i> contact</a>
                         </li>
                     </ul>
                     <!--<form class="d-flex mt-3" role="search">
@@ -68,23 +68,11 @@
         </div>
     </nav>
 
-    <!-- Search bar-->
-    <div id="search-bar" class="container-fluid my-4">
-        <div class="row">
-            <div class="col-md-6">
-                <input id="genreSearchInput" type="text" class="form-control"
-                    placeholder="Search genres, micro-genres, documentary modes...">
-            </div>
-        </div>
 
-        <div class="row mt-3">
-            <div class="col-md-6">
-                <ul id="genreSearchResults" class="list-group"></ul>
-            </div>
-        </div>
-    </div>
 
-    <div id="row-box" class="container text-center">
+    <main>
+        <div class="container-a">
+        <div id="row-box" class="container text-center d-flex flex-column">
         <div class="row">
             <div class="col">
                 1 of 2
@@ -105,6 +93,8 @@
             </div>
         </div>
     </div>
+    </div>
+    </main>
 
 
 
