@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Minds",
+    "year": 2023,
+    "genre": "Technology",
+    "mode": "Reflexive",
+    "format": "Feature Documentary",
+    "micro_genres": ["AI Ethics", "Social Media"],
+    "tags": ["tech", "internet", "future"],
+    "platform": "YouTube Originals",
+    "description": "Explores how digital platforms shape identity, behaviour, and society.",
+    "image_url": "assets/images/docs/digital-minds.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Crystal Lake Memories",
+    "year": 2013,
+    "genre": "Dark History",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Horror History", "Slasher Cinema", "Behind the Scenes"],
+    "tags": ["Friday the 13th", "Film Production", "Cult Cinema"],
+    "platform": "YouTube",
+    "description": "A deep dive into the legacy, production, and cultural impact of the Friday the 13th franchise.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Voices of the Earth",
+    "year": 2021,
+    "genre": "Environmental",
+    "mode": "Observational",
+    "format": "Feature Documentary",
+    "micro_genres": ["Climate Change", "Eco Activism"],
+    "tags": ["nature", "activism", "global"],
+    "platform": "Netflix",
+    "description": "A quiet, immersive look at communities fighting to protect fragile ecosystems.",
+    "image_url": "assets/images/docs/voices-earth.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Free Solo",
+    "year": 2018,
+    "genre": "Adventure",
+    "mode": "Observational",
+    "format": "Feature Documentary",
+    "micro_genres": ["Extreme Sports", "Survival"],
+    "tags": ["Climbing", "Yosemite", "Athlete Profile"],
+    "platform": "Disney+",
+    "description": "Follows Alex Honnold as he attempts a historic free solo climb of El Capitan.",
+    "image_url": "https://i.ytimg.com/vi/urRVZ4SW7WU/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Human Rights Frontline",
+    "year": 2020,
+    "genre": "Human Rights",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Civil Liberties", "War Crimes"],
+    "tags": ["justice", "law", "global"],
+    "platform": "Amazon Prime",
+    "description": "Investigative teams uncover abuses in conflict zones and amplify survivor voices.",
+    "image_url": "assets/images/docs/hr-frontline.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 6,
+    "title": "Trafficked: Hidden Networks",
+    "year": 2022,
+    "genre": "Crime",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Human Trafficking", "Organised Crime"],
+    "tags": ["crime", "investigation", "dark"],
+    "platform": "HBO",
+    "description": "A deep dive into the global trafficking networks that operate in the shadows.",
+    "image_url": "assets/images/docs/trafficked.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 7,
+    "title": "The Social Dilemma",
+    "year": 2020,
+    "genre": "Technology & Digital Culture",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Digital Addiction", "Social Experiments"],
+    "tags": ["Social Media", "Privacy", "Tech Ethics"],
+    "platform": "Netflix",
+    "description": "Examines how social media platforms manipulate behaviour and shape society.",
+    "image_url": "https://i.ytimg.com/vi/uaaC57tcci0/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 8,
+    "title": "Blackfish",
+    "year": 2013,
+    "genre": "Environmental / Climate",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Conservation", "Animal Rights"],
+    "tags": ["Orcas", "SeaWorld", "Activism"],
+    "platform": "Netflix",
+    "description": "Investigates the treatment of orcas in captivity and the consequences for both animals and trainers.",
+    "image_url": "https://i.ytimg.com/vi/fLOeH-Oq_1Y/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 9,
+    "title": "13th",
+    "year": 2016,
+    "genre": "Social Issues",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Political Scandals", "Human Rights"],
+    "tags": ["Mass Incarceration", "Race", "Justice System"],
+    "platform": "Netflix",
+    "description": "Explores the intersection of race, justice, and mass incarceration in the United States.",
+    "image_url": "https://i.ytimg.com/vi/krfcq5pF8u8/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 10,
+    "title": "Apollo 11",
+    "year": 2019,
+    "genre": "Space / Astronomy",
+    "mode": "Poetic",
+    "format": "Feature Documentary",
+    "micro_genres": ["Space Missions", "Archival Reconstruction"],
+    "tags": ["NASA", "Moon Landing", "1960s"],
+    "platform": "Prime Video",
+    "description": "A stunning archival reconstruction of the Apollo 11 moon landing mission.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 11,
+    "title": "Searching for Sugar Man",
+    "year": 2012,
+    "genre": "Music",
+    "mode": "Investigative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Underground Music", "Biography"],
+    "tags": ["Rodriguez", "Mystery", "South Africa"],
+    "platform": "YouTube",
+    "description": "Two fans search for the truth behind the mysterious disappearance of musician Rodriguez.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 12,
+    "title": "The Cove",
+    "year": 2009,
+    "genre": "Environmental / Climate",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Conservation", "Investigative"],
+    "tags": ["Dolphins", "Japan", "Activism"],
+    "platform": "Prime Video",
+    "description": "A covert investigation into dolphin hunting practices in Taiji, Japan.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 13,
+    "title": "Citizenfour",
+    "year": 2014,
+    "genre": "Cybersecurity",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Hackers", "Digital Privacy"],
+    "tags": ["Edward Snowden", "NSA", "Surveillance"],
+    "platform": "YouTube",
+    "description": "Documents Edward Snowden’s leak of classified NSA surveillance programs.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 14,
+    "title": "My Octopus Teacher",
+    "year": 2020,
+    "genre": "Nature / Wildlife",
+    "mode": "Performative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Wildlife Behaviour", "Personal Story"],
+    "tags": ["Ocean", "Octopus", "South Africa"],
+    "platform": "Netflix",
+    "description": "A filmmaker forms a unique bond with an octopus in a South African kelp forest.",
+    "image_url": "https://i.ytimg.com/vi/3s0LTDhqe5A/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 15,
+    "title": "The Rescue",
+    "year": 2021,
+    "genre": "Human & Society",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Survival", "Disaster"],
+    "tags": ["Thai Cave Rescue", "Diving", "Teamwork"],
+    "platform": "Disney+",
+    "description": "Chronicles the daring rescue of a youth football team trapped in a flooded cave.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 16,
+    "title": "The Great Hack",
+    "year": 2019,
+    "genre": "Technology & Digital Culture",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Cybersecurity", "Digital Privacy"],
+    "tags": ["Cambridge Analytica", "Data Mining", "Politics"],
+    "platform": "Netflix",
+    "description": "Investigates how personal data became the most valuable asset on Earth.",
+    "image_url": "https://i.ytimg.com/vi/iX8GxLP1FHo/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 17,
+    "title": "Grizzly Man",
+    "year": 2005,
+    "genre": "Nature / Wildlife",
+    "mode": "Performative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Wildlife Behaviour", "Survival"],
+    "tags": ["Bears", "Alaska", "Timothy Treadwell"],
+    "platform": "Prime Video",
+    "description": "Explores the life and tragic death of bear enthusiast Timothy Treadwell.",
+    "image_url": "assets/images/fallback.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 18,
+    "title": "The Act of Killing",
+    "year": 2012,
+    "genre": "War & Conflict",
+    "mode": "Performative",
+    "format": "Feature Documentary",
+    "micro_genres": ["War Crimes", "Reenactment-driven"],
+    "tags": ["Indonesia", "History", "Violence"],
+    "platform": "YouTube",
+    "description": "Former death squad leaders reenact their crimes in surreal cinematic scenes.",
+    "image_url": "https://i.ytimg.com/vi/SD5oMxbMcHM/hqdefault.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 19,
+    "title": "Climbers of the Impossible",
+    "year": 2019,
+    "genre": "Adventure",
+    "mode": "Observational",
+    "format": "Feature Documentary",
+    "micro_genres": ["Extreme Sports", "Solo Challenges"],
+    "tags": ["climbing", "sports", "mountains"],
+    "platform": "Disney+",
+    "description": "Elite climbers push the limits of human endurance on impossible routes.",
+    "image_url": "assets/images/docs/climbers.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 20,
+    "title": "Digital Shadows",
+    "year": 2024,
+    "genre": "Cybersecurity",
+    "mode": "Investigative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Hackers", "Dark Web"],
+    "tags": ["cybercrime", "privacy", "internet"],
+    "platform": "Netflix",
+    "description": "Investigates the hidden world of dark web marketplaces and cybercrime syndicates.",
+    "image_url": "assets/images/docs/digital-shadows.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 21,
+    "title": "Oceans in Crisis",
+    "year": 2022,
+    "genre": "Environmental",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Pollution", "Conservation"],
+    "tags": ["ocean", "plastic", "activism"],
+    "platform": "Prime Video",
+    "description": "Examines the growing threat of ocean pollution and global conservation efforts.",
+    "image_url": "assets/images/docs/oceans-crisis.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 22,
+    "title": "Voices of War",
+    "year": 2021,
+    "genre": "War & Conflict",
+    "mode": "Participatory",
+    "format": "Feature Documentary",
+    "micro_genres": ["Survivor Testimony", "War Crimes"],
+    "tags": ["war", "survivors", "history"],
+    "platform": "YouTube",
+    "description": "Survivors recount their experiences in war-torn regions across the globe.",
+    "image_url": "assets/images/docs/voices-war.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 23,
+    "title": "Hidden Cities",
+    "year": 2020,
+    "genre": "Human & Society",
+    "mode": "Observational",
+    "format": "Feature Documentary",
+    "micro_genres": ["Urban Life", "Social Issues"],
+    "tags": ["cities", "poverty", "community"],
+    "platform": "Netflix",
+    "description": "Explores the unseen struggles and triumphs within major urban centres.",
+    "image_url": "assets/images/docs/hidden-cities.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 24,
+    "title": "The Last Forest",
+    "year": 2023,
+    "genre": "Nature / Wildlife",
+    "mode": "Poetic",
+    "format": "Feature Documentary",
+    "micro_genres": ["Indigenous Rights", "Conservation"],
+    "tags": ["forest", "tribes", "nature"],
+    "platform": "Disney+",
+    "description": "A poetic journey through one of the last untouched forests on Earth.",
+    "image_url": "assets/images/docs/last-forest.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 25,
+    "title": "Broken Systems",
+    "year": 2024,
+    "genre": "Social Issues",
+    "mode": "Investigative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Corruption", "Public Services"],
+    "tags": ["politics", "justice", "society"],
+    "platform": "Prime Video",
+    "description": "Investigates systemic failures in public institutions and their impact on citizens.",
+    "image_url": "assets/images/docs/broken-systems.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 26,
+    "title": "Silent Skies",
+    "year": 2021,
+    "genre": "Environmental",
+    "mode": "Poetic",
+    "format": "Feature Documentary",
+    "micro_genres": ["Bird Migration", "Climate Change"],
+    "tags": ["birds", "climate", "nature"],
+    "platform": "Netflix",
+    "description": "A visually stunning exploration of bird migration patterns threatened by climate change.",
+    "image_url": "assets/images/docs/silent-skies.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 27,
+    "title": "Digital Addiction",
+    "year": 2023,
+    "genre": "Technology & Digital Culture",
+    "mode": "Expository",
+    "format": "Feature Documentary",
+    "micro_genres": ["Social Media", "Mental Health"],
+    "tags": ["phones", "internet", "youth"],
+    "platform": "YouTube",
+    "description": "Examines the psychological effects of constant digital engagement.",
+    "image_url": "assets/images/docs/digital-addiction.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  },
+
+  {
+    "id": 28,
+    "title": "The Forgotten Mines",
+    "year": 2020,
+    "genre": "Human & Society",
+    "mode": "Investigative",
+    "format": "Feature Documentary",
+    "micro_genres": ["Labour Rights", "Industrial History"],
+    "tags": ["mining", "workers", "history"],
+    "platform": "Prime Video",
+    "description": "Uncovers the dangerous conditions faced by miners in abandoned industrial sites.",
+    "image_url": "assets/images/docs/forgotten-mines.jpg",
+    "fallback_image": "assets/images/fallback.jpg"
+  }
+]

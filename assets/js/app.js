@@ -27,7 +27,7 @@ function loadGenreData() {
 }
 
 function loadDocumentaries() {
-  fetch("assets/data/documentaries.json")
+  fetch("assets/data/documentaries-large.json")
     .then(res => res.json())
     .then(data => {
       documentaries = data;
@@ -95,9 +95,16 @@ function displayGenreResults(results) {
     const li = document.createElement("li");
     li.className = "list-group-item";
     li.textContent = `${item.name} (${item.type})`;
+
+    // ⭐ Redirect to search-results page when clicked
+    li.addEventListener("click", () => {
+      window.location.href = `search-results.html?q=${encodeURIComponent(item.name)}`;
+    });
+
     genreSearchResults.appendChild(li);
   });
 }
+s
 
 // ---- Documentary cards ----
 function renderDocumentaryCards(list) {
