@@ -1,201 +1,162 @@
-/* Google fonts for site */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+/* ============================
+   GLOBAL
+============================ */
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
-/* Color Theme for D-Cine*/
-:root.fresh-light {
-  --color-bg-primary: #f7f9fb;      /* Soft Cloud */
-  --color-bg-secondary: #eef2f5;    /* Mist Grey */
-  --color-bg-tertiary: #e2e8ef;     /* Cool Porcelain */
-
-  --color-text-primary: #2b2f33;    /* Charcoal Ink */
-  --color-text-secondary: #5c636a;  /* Slate Grey */
-
-  --color-border: #d3d9df;          /* Gentle Outline */
-
-  --color-accent: #2bb8a3;          /* Fresh Teal */
-  --color-accent-hover: #4ccab6;    /* Bright Mint */
-
-  --color-danger: #ff6b6b;          /* Soft Coral Red */
-  --color-warning: #f7c948;         /* Warm Honey Yellow */
-}
-
-
-/*Navbar Color Change*/
-#navbar {
-    background-color: var(--color-bg-primary);
-}
-#navbar .navbar-brand img {
-    height: 56px;
-    width: auto;
-}
-
-.nav-link,
-.nav-link.active {
-    color: var(--color-text-primary) !important;
-    font-family: 'Google Sans Text', 'Inter', 'Poppins', sans-serif;
-}
-
-.nav-link:hover,
-.nav-link.active:hover {
-    color: var(--color-accent-hover) !important;
-}
-
-
-.nav-link {
-    color: var(--color-accent);
-}
-
-.nav-link:hover {
-    color: var(--color-accent-hover);
-}
-
-.nav-link {
-    text-transform: uppercase;
-    font-family: 'Rethink Sans', sans-serif;
-}
-
-.nav-link i {
-    color: var(--color-accent);
-}
-
-.nav-link i:hover {
-    color: var(--color-accent-hover);
-}
-
-.navbar-toggler {
-    background-color: var(--color-accent);
+:root {
+  --color-bg-primary: #ffffff;
+  --color-text-primary: #222;
+  --color-accent: #007bff;
+  --color-accent-hover: #0056b3;
 }
 
 body {
-    background-color: var(--color-bg-primary);
-    color: var(--color-text-primary);
-    padding-top: 100px;
-}
-
-/* Search bar for container class to be centered.*/
-.container-bar {
-    align-items: center;
-}
-
-/* Card styling */
-.doc-card {
-  transition: transform 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.doc-card:hover {
-  transform: scale(1.03);
-}
-
-.doc-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', 'Poppins', sans-serif;
+  margin: 0;
   padding: 0;
 }
 
-/* Global Code for all html files. */
-
-
-#h-2 {
-    text-align: center;
+/* Remove default container padding for full-width look */
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-/* Header */
-.header {
-    margin-top: 90px;
-    border: 1px solid var(--color-accent);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    padding: 15px 5px 5px 15px;
-    width: auto;
+/* ============================
+   NAVBAR
+============================ */
+
+#navbar {
+  background-color: var(--color-bg-primary);
+  border-bottom: 1px solid #e5e5e5;
 }
 
-main {
-    padding-top: 100px;
+.nav-link {
+  color: var(--color-text-primary) !important;
+  text-transform: uppercase;
 }
 
-/* Documentary Image */
-
-.documentary-images {
-    height: auto;
-    width: 100%;
-    border: 1;
-    display: flex;
-    border-radius: 5px;
+.nav-link:hover {
+  color: var(--color-accent-hover) !important;
 }
 
-.btn {
-    margin-top: 100px;
-    height: 128px;
-    width: 128px;
-    padding: 8px;
-    border-radius: 8px;
+.nav-link i {
+  color: var(--color-accent);
 }
 
-
-/* Card CSS removed from Line 92 - 120 */
-.card {
-    width: 12rem;
+.nav-link i:hover {
+  color: var(--color-accent-hover);
 }
 
-/* Search bar Height and width */
-#search-bar {
-    margin-top: 400px;
+/* Restore original Bootstrap toggler colour */
+.navbar-toggler {
+  background-color: transparent !important;
 }
+
+/* Offcanvas background fix */
+.offcanvas {
+  background-color: var(--color-bg-primary) !important;
+}
+
+/* ============================
+   SPLIT LAYOUT
+============================ */
+
+.row {
+  min-height: 100vh;
+}
+
+header, main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+header {
+  border-right: 1px solid #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  header {
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+/* ============================
+   SEARCH BAR
+============================ */
+
+.search-wrapper .input-group {
+  max-width: 90%;
+}
+
+#genreSearchInput {
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+#genreSearchInput:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}
+
+#searchButton {
+  background-color: var(--color-accent);
+  border: none;
+}
+
+#searchButton:hover {
+  background-color: var(--color-accent-hover);
+}
+
+/* Search results list */
+#genreSearchResults .list-group-item {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#genreSearchResults .list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* ============================
+   DOCUMENTARY CARDS
+============================ */
+
+.doc-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doc-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.doc-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* ============================
+   FOOTER
+============================ */
 
 footer {
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-    bottom: 0;
-    position: fixed;
-    background-color: var(--color-bg-tertiary);
-    color: var(--color-text-secondary);
+  padding: 20px 0;
+  background-color: var(--color-bg-primary);
+  border-top: 1px solid #e5e5e5;
 }
 
 footer a {
-    align-items: center;
-    color: var(--color-warning);
+  margin: 0 10px;
+  color: var(--color-text-primary);
+  text-transform: uppercase;
 }
 
 footer a:hover {
-    color: var(--color-danger);
-}
-
-/* Body and Header fonts */
-
-body {
-  font-family: 'Inter', sans-serif;
-}
-
-h1,
-h3,
-h4,
-h5  {
-  font-family: 'Google Sans', sans-serif;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-}
-
-.special {
-  font-family: 'Macondo', cursive;
-}
-
-.alt {
-  font-family: 'Rethink Sans', sans-serif;
+  color: var(--color-accent-hover);
 }
