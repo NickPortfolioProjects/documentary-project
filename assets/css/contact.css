@@ -24,3 +24,43 @@
   --color-danger: #ff6b6b;          /* Soft Coral Red */
   --color-warning: #f7c948;         /* Warm Honey Yellow */
 }
+
+/* Navbar styling to match the home page */
+#navbar {
+  background-color: var(--color-bg-primary);
+}
+
+#navbar .navbar-brand img {
+  height: 56px;
+  width: auto;
+}
+
+.nav-link,
+.nav-link.active {
+  color: var(--color-text-primary) !important;
+  font-family: 'Google Sans Text', 'Inter', 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+  color: var(--color-accent-hover) !important;
+}
+
+.nav-link i {
+  color: var(--color-accent);
+}
+
+.nav-link i:hover {
+  color: var(--color-accent-hover);
+}
+
+.navbar-toggler {
+  background-color: var(--color-accent);
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  padding-top: 100px;
+}
