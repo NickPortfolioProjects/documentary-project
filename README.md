@@ -1,4 +1,4 @@
-# 🎥 Documentary Project - Cine
+# 🎥 Documentary Project - D-Cine
 
 A curated collection of outstanding documentary films, organised by genre, year, and platform — live at:
 **https://nickportfolioprojects.github.io/documentary-project/**
